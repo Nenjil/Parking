@@ -18,7 +18,7 @@ if(isset($_POST['connect'])) {
          $_SESSION['mail'] = $userinfo['mail'];
          $_SESSION['godmod'] = $userinfo['godmod'];
          sleep(3);
-        header('Location: ../../index.php');
+        header('Location: ../profil.php');
       } else {
          $erreur = "Mauvais nom d'utilisateur ou mot de passe !";
          sleep(3);

@@ -13,7 +13,7 @@
 
 </head>
 
-<body style="background:#0E0E0E;background-repeat:no-repeat;background-size:cover;overflow:hidden;">
+<body style="background:url('astro.jpg');background-repeat:no-repeat;background-size:cover;background-attachment: fixed;overflow:hidden;">
 <style>
 input{
 	opacity: 5;
